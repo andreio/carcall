@@ -1,0 +1,112 @@
+body {
+  .bg-dark;
+  color:lavender;
+  background-size: cover;
+
+}
+
+.main-container {
+  margin-top:40px;
+  width: 800px;
+  height: 600px;
+  background-color: #f5f5f5;
+  background: url('images/css-quilt.png');
+  background-size: cover;
+  border-radius: 15px ;
+  border: 2px solid #428bca;
+}
+
+@bg-dark: #333;
+@bg-lighter-dark: #999;
+
+.bg-dark {
+  background-color: @bg-dark;
+}
+
+.bg-lighter-dark {
+
+  background-color: @bg-lighter-dark;
+}
+
+[aoc-gmap] {
+  width: 300px;
+  height: 300px;
+}
+
+ 
+.contact-list {
+  max-height: 300px;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.contact-criteria {
+  margin-bottom: 6px;
+  border-bottom: solid 1px @bg-lighter-dark;
+  padding-bottom: 6px;
+
+}
+
+.contact-details {
+  border-bottom: solid 1px @bg-dark;
+}
+
+.pages {
+  margin-top: 6px;
+  border-top: solid 1px @bg-lighter-dark;
+}
+
+.contact-entry {
+  margin-bottom: 4px;
+  height: 40px;
+  line-height: 40px;
+  &:hover {
+    background-color: @bg-lighter-dark;
+    cursor:pointer;
+  }
+}
+.contact-pages {
+  height: 50px;
+}
+
+.calling-label{
+  font-size:50px;
+  text-align: center;
+}
+.phone-label{
+  font-size:50px;
+  text-align: center;
+  font-weight: bold;
+  color:#428bca;
+}
+
+.born-label{
+  font-size:25px;
+  text-align: center;
+  font-weight: bold;
+}
+.date-label{
+  font-size:22px;
+  text-align: center;
+  color: #d9534f;
+}
+
+.location-label{
+  font-size: 22px;
+
+}
+
+.place-call{
+  margin-top:30%;
+}
+
+.contact-label{
+  margin:10px;
+  opacity: 0.9;
+  margin-bottom:60px;
+}
+
+.details-label{
+  margin-top:18%;
+}

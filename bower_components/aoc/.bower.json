@@ -1,0 +1,34 @@
+{
+  "name": "aoc",
+  "version": "0.0.6",
+  "homepage": "https://github.com/andreio/aoc",
+  "authors": [
+    "Andrei Oprea <andrewoprea2003@yahoo.com>"
+  ],
+  "description": "Angular optimized components",
+  "main": "src/aoc.js",
+  "keywords": [
+    "angular",
+    "optimized",
+    "components",
+    "jquery",
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.6",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.6",
+    "commit": "ec2085e7dcba360558052dfecf9af55c81617411"
+  },
+  "_source": "git://github.com/andreio/aoc.git",
+  "_target": "*",
+  "_originalSource": "aoc"
+}
