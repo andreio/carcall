@@ -31,7 +31,7 @@ angular.module('filters', [])
                 hasPassed = thisYear.isBefore(currentDate);
             hasPassed && (thisYear.add('years', 1));
             var days = thisYear.diff(currentDate, 'days');
-            return days === 0 ? "Don’t forget to wish you friend a happy birthday today!!" : days + " days until birthday!! ";
+            return thisYear.dayOfYear()==currentDate.dayOfYear() ? "Don’t forget to wish you friend a happy birthday today!!" : days + " days until birthday!! ";
 
         }
     });
