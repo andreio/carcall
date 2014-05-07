@@ -1,7 +1,7 @@
 carcall
 =======
 
-Simple example app with angular.js, bootstrap and aoc.js
+Simple and light example app with angular.js, aoc.js, bootstrap 
 
 Usage: 
 
