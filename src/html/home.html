@@ -7,7 +7,7 @@
      id="contactsDialog" ng-init="criteria={index:0,orderBy:'firstName',filter:''}">
     <div class="contact-criteria clearfix row">
         <div class="col-xs-6">Sort by:
-            <select class="" ng-model="criteria.orderBy">
+            <select class="input-sm" ng-model="criteria.orderBy">
                 <option value="firstName">First name</option>
                 <option value="lastName">Last name</option>
                 <option value="country">Country</option>
@@ -17,7 +17,7 @@
             </select></div>
         <div class="col-xs-6">
             Search
-            <input class="" ng-model="criteria.filter" ng-change="criteria.index=0">
+            <input class="input-sm" ng-model="criteria.filter" ng-change="criteria.index=0">
             </span>
         </div>
     </div>
