@@ -7,6 +7,5 @@ Usage:
 
   1. git clone https://github.com/andreio/carcall.git
   2. cd carcall
-  3. grunt connect
-  3. grunt (rebuilds app/ then 'connect's)
+  3. grunt (use "grunt connect" to start the server without rebuilding app/)
   4. /localhost:9090/
