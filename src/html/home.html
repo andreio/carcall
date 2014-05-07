@@ -5,22 +5,32 @@
 <div aoc aoc-dialog="d" d-max-height="500" d-resizable="false" d-width="500" d-draggable="false" d-auto-open="false"
      d-title="'Contacts'" d-close-text="'Close'" d-modal="true" d-position="{at:'top+50px',my:'top',of:'[ng-view]'}"
      id="contactsDialog" ng-init="criteria={index:0,orderBy:'firstName',filter:''}">
-    <div class="contact-criteria clearfix row">
-        <div class="col-xs-6">Sort by:
-            <select class="input-sm" ng-model="criteria.orderBy">
-                <option value="firstName">First name</option>
-                <option value="lastName">Last name</option>
-                <option value="country">Country</option>
-                <option value="city">City</option>
-                <option value="birthDate">Birth date</option>
-                <option value="phoneNumber">Phone Number</option>
-            </select></div>
-        <div class="col-xs-6">
-            Search
-            <input class="input-sm" ng-model="criteria.filter" ng-change="criteria.index=0">
-            </span>
+    <div class="contact-criteria row">
+        <div class="col-xs-12">
+           <div class="row"> 
+                <div class="col-xs-6">Sort by:</div>
+                 <div class="col-xs-6">Filter by:</div> 
+           </div>
+           <div class="row">
+                 <div class="col-xs-6">
+                         <select class="input-sm" ng-model="criteria.orderBy">
+                                 <option value="firstName">First name</option>
+                                   <option value="lastName">Last name</option>
+                                   <option value="country">Country</option>
+                                    <option value="city">City</option>
+                                    <option value="birthDate">Birth date</option>
+                                    <option value="phoneNumber">Phone Number</option>
+                        </select>
+                </div>  
+                <div class="col-xs-6">
+                    <input class="input-sm" ng-model="criteria.filter" ng-change="criteria.index=0">
+                </div>   
+           </div>
         </div>
+        
     </div>
+    
+    
 
 
     <div class="contact-list">
